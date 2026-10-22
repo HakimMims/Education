@@ -1,13 +1,18 @@
 # Education Project
 
-## Project Overview
+This project looks at whether socioeconomic factors can help predict average ACT scores. I used EdGap data along with school information from the National Center for Education Statistics Common Core of Data.
 
-This project will analyze educational data to explore differences in academic outcomes and related socioeconomic factors.
+The main predictors were unemployment, percent of adults with a college degree, percent married, median household income, and free or reduced-price lunch. I also looked at charter school status as an additional predictor.
 
-## Data
+The results showed that unemployment, adult college education, and free or reduced-price lunch were statistically significant predictors of ACT scores. Charter status was not statistically significant after controlling for socioeconomic factors.
 
-EdGap data:
-https://github.com/brian-fischer/DATA-5100/tree/main/weather
+## Files
 
-CCD school data:
-https://www.dropbox.com/scl/fi/fkafjk8902sq8ptxh94r2/ccd_sch_029_1617_w_1a_11212017.csv
+- `Education.ipynb` – full analysis
+- `data/` – original and cleaned datasets
+- Final report – project write-up
+
+## Author
+
+Hakim Mims  
+Seattle University
